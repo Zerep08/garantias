@@ -27,7 +27,11 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
+<<<<<<< HEAD
                     <file>${libs.spring-framework400.classpath}</file>
+=======
+                    <file>${libs.MySQLDriver.classpath}</file>
+>>>>>>> beca47a77c2105676352558eddbabd455db74f48
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>

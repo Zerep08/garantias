@@ -9,15 +9,22 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
 /**
  *
- * @author zerep08
+ * @author sergiojc
  */
+
 @Controller
-@RequestMapping("/ver.htm")
-public class verController {
+@RequestMapping("/login.htm")
+public class viewController {
+    
     @RequestMapping(method = RequestMethod.GET)
-    public  String otroMetodo(Model model){
-        return "mostrarTicket";
-}
+    public String toIndex(Model model){      
+       // model.addAttribute("holaBarbarillo","holaBarbarillomon");      
+        return "index";
+    }
+    
+    
+    
 }
